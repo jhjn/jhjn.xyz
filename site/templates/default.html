@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang=en>
+
+<link href="data:image/jpg;base64,R0lGODlhEAAQAPcAAAAAAAAAqAD/AP/7AIL/AAD/AAD/fQD//wCC/wAA/3kA/88A//8A1/8Agv8AAP99AMuaRZY8GGEAAP/3gsP/goL/goL/voL//4LD/4KC/6aC/8+C//uC//+Cw/+Cgv+egoIAAIIcAII8AIJRAIJlAIJ5AEGCAACCAACCPACCggBBggAAgigAgk0AgnkAgoIAQQAAABAQECAgIDAwMEVFRVVVVWVlZXV1dYaGhpqamqqqqrq6usvLy9/f3+/v7////00AAFkAAHEAAIYAAJ4AALYAAM8AAOcAAP8AAP8cHP80NP9RUf9tbf+Kiv+iov++vk0kAFUoAG00AIY8AJ5JALZZAM9lAOdxAP99AP+OHP+aNP+mUf+ybf++hv/Pov/fvk1JAFlRAHFpAIaCAJ6WALauAM/HAOfjAP//AP//HP/7NP/7Uf/3bf/7hv/7ov/7vgBNAABhAAB5AACOAACmAAC6AADTAADrAAD/ABz/HDj/NFX/UXH/bYr/hqb/osP/vgBBQQBZWQBxcQCGhgCengC2tgDPzwDn5wD//1n/+3X/+4r//57/+7r//8v//9v//wAgQQAsWQA4cQBFhgBRngBdtgBpzwB15wCC/xyO/zSe/1Gq/226/4rL/6LX/77j/wAATQAAZQAEeQAEjgAEpgAAvgAA0wAA6wAA/xwk/zQ8/1Fd/215/4qS/6Kq/77H/yQATTAAZUEAgk0AmlkAsmUAy3EA53kA/4IA/44c/5Y0/6ZR/65t/76G/8ui/9u+/0kATV8AY3UAeosAkKEAp7cAvc0A1OMA6+YX7eov8O1H8vFf9fR29/iO+vum/P++/yAAACwAADgEBEkMCFUUEGEgGHEoJH04LIZFOJpZTaptXbqCdcuait+you/Pvv/r3yAgADw8AFFNAGVZCHllDI5tFKJ5HLZ9KL6COMeOTc+WYdumdeOyjuvDpvfTw//r3/8cHP8cHP8cHP8cHP8cHP8cHP8cHKx8fP8cHP8cHP8cHP8cHAAAAG1tbaqqqm1tbSH/C0NSTkcAAAAAMS4wSAAAAAIwPwAAAAJATwAAAAJQXwAAAAJgbwAAAAJwfwAAAAKAjwAAAAKQnwAAAAKgrwAAAAKwvwAAAALAzwAAAALQ3wAAAALg7wAh+QQE//8AACwAAAAAEAAQAAcIPQAjCRxIsKDBgwU1KVzIkCHChxARIog0cWBFgxMvUpRIEUHFjBo3ZhQ4UmNJkiItYozIsiXBhjAXupxJMCAAOw==" rel=icon>
+
+<title>jhjn$if(title)$ - $title$$endif$</title>
+
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1.0">
+
+<style>$header-includes$</style>
+
+<nav>
+    <ul>
+        <li><a href=/ id=a>⋀ jhjn ⋁</a></li>
+        <li><a href=/blog/>blog</a>
+		<li><a href=/pages/science/>science</a>
+		<li><a href=/pages/recipes/>recipes</a>
+		<li><a href=/pages/bookmarks/>bookmarks</a>
+        <li><a href=/pages/software>software</a>
+        <li><a href=https://github.com/jhjn/>git</a>
+		<li><a href=/pages/about/>about</a>
+    </ul>
+</nav>
+
+<main>
+	<!-- for blog  -->
+    $if(date)$
+        <br>
+        <p>Published <b>$date$</b> by <a href="https://github.com/dylanaraps"></a>.</p>
+    $endif$
+
+    $if(title)$
+        <h1 id="title-header">$title$</h1>
+    $else$
+        <br>
+    $endif$
+
+$if(out-toc)$
+<div id="TOC">
+$table-of-contents$
+</div>
+$endif$
+	
+$body$
+    <br>
+    <pre></pre>
+</main>
+
+<footer>
+	<div id=m><p>This is a personal website adapted from the <a href="(https://github.com/kisslinux/website/">KISS</a> Linux website</p><p>© Joe Jenne 2019</p></div>
+</footer>

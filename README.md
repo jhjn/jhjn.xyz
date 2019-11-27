@@ -1,0 +1,1 @@
+`./make && nginx -s reload`

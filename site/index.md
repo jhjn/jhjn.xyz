@@ -15,6 +15,8 @@ curl -sS http://ix.io/1Ryz > brewsetup
 
 ### Page Source
 
+**Site**: <https://github.com/jhjn/site>
+
 ### CV
 
 ### Dotfiles

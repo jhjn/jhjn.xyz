@@ -1,4 +1,4 @@
-#!/bin/sh -e
+#!/bin/bash -e
 #
 # Simple static site builder, without wiki.
 
@@ -6,8 +6,9 @@
 # into the template. Also bring in the CSS and minify
 # the HTML.
 # Location of site folder
-SITE=/var/www/jhjn/site
-HTML_WWW=/var/www/html
+SITE=/home/pi/src/jhjn/site
+#HTML_WWW=/var/www/html
+HTML_WWW=/home/pi/temp/html
 
 mk() {
     pandoc -t html5 \
@@ -23,10 +24,11 @@ mk() {
     printf '%s\n' "CC $page"
 }
 
-# Delete the generated website.
-rm    -rf $HTML_WWW
-mkdir -p  $HTML_WWW
-cd        $HTML_WWW
+# Delete the old website locations.
+shopt -s extglob
+cd $HTML_WWW
+rm -rf !(nextcloud)
+shopt -u extglob
 
 # Minify the CSS using sed.
 sed ':a;N;$!ba;s/\n//g;s/: /:/g;s/ {  /{/g;s/;  /;/g;s/;}/}/g' \

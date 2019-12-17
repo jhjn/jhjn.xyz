@@ -7,8 +7,7 @@
 # the HTML.
 # Location of site folder
 SITE=/home/pi/src/jhjn/site
-#HTML_WWW=/var/www/html
-HTML_WWW=/home/pi/temp/html
+HTML_WWW=/var/www/html
 
 mk() {
     pandoc -t html5 \

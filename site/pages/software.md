@@ -33,6 +33,13 @@ Combining SMTP + IMAP + POP3 + Antispam + Antivirus + Web administration + Web e
 
 **Site**: <https://poste.io/>
 
+## refl.me
+
+Free notifications and messages to an app on your phone (from CLI)
+
+**Site**L <https://refl.me/>
+
+
 ---
 
 ## Suckless (<https://suckless.org/>)
@@ -71,6 +78,12 @@ farbfeld is a lossless image format which is easy to parse, pipe and compress. e
 `png2ff < example.png | bzip2 > example.ff.bz2`.
 
 **Site**: <https://git.suckless.org/farbfeld>
+
+## stagit (external)
+
+static git page generator.
+
+**Site**: <git://git.codemadness.org/stagit>
 
 ---
 
@@ -134,9 +147,15 @@ Change terminal colors on the fly.
 
 ## Other (non-minimal)
 
+## yunohost
+
+One-click install of many apps and services, one-click upgrades as well.
+
+**Site**: <https://yunohost.org/#/>
+
 ## nextcloud
 
-Self-hosted cloud services.
+Self-hosted cloud storage services.
 
 **Source**: <https://github.com/nextcloud/server>
 
@@ -146,3 +165,25 @@ Self-hosted cloud services.
 WireGuard is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography. Self-hostable.
 
 **Site**: <https://www.wireguard.com/>
+
+## collection of self-hosted private cloud services
+
+Including: VPN, Music, eBooks, Photos, Docs, Bookmarks, Calendar Storage, Email, Chat, Backup, Passwords etc.
+
+**Site**: <https://github.com/Atarity/deploy-your-own-saas>
+
+(larger + more noise) **Site**: <https://github.com/awesome-selfhosted/awesome-selfhosted>
+
+e.g
+
+### git server
+
+* <https://gitea.io/en-us/>
+
+### libre office in the cloud
+
+* <https://www.collaboraoffice.com/collabora-online/>
+
+### file transfers
+
+* <https://github.com/lachs0r/0x0>

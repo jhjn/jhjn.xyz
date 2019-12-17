@@ -2,6 +2,13 @@
 title: bookmarks
 ---
 
+## Cool Collections
+
+* [Applications/Plugins with Vim-like keybindings](https://vim.reversed.top/)
+
+
+---
+
 ## Loginless Services
 
 ### Data
@@ -54,3 +61,7 @@ title: bookmarks
 [USB Armory](https://inversepath.com/usbarmory.html#usbarmory_coin_3-tab)
 
 [SED](http://anaturb.net/sed.htm)
+
+[Pen testing](https://m0chan.github.io/2019/07/30/Windows-Notes-and-Cheatsheet.html)
+
+[Login to your webpage](https://github.com/pastapojken/JSONlogin)

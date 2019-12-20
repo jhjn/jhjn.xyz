@@ -1,5 +1,5 @@
 ---
-title: Software
+title: software
 out-toc: true
 ---
 

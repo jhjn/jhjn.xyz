@@ -1,5 +1,5 @@
 ---
-title: Me
+title: me
 ---
 
 Feel free to contact me at any of the following:

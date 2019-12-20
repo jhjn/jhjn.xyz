@@ -2,7 +2,9 @@
 title: bookmarks
 ---
 
-## Cool Collections
+See the [book queue](/pages/bookqueue) for the analogue library.
+
+## Collections
 
 * [Applications/Plugins with Vim-like keybindings](https://vim.reversed.top/)
 

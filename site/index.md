@@ -2,8 +2,7 @@
 title: home
 ---
 
-
-Having your own page is useful, so is decentralisation (*@fb*). This website collects things.
+This serves as a personal webpage with diversions to things that interest me, plus it was a self-hosting project. Decentralisation (*not facebook*) is important.
 
 ### Scripts
 
@@ -13,13 +12,12 @@ curl -sS http://ix.io/1Ryw > somafm
 curl -sS http://ix.io/1Ryz > brewsetup
 ~~~
 
-### Page Source
 
-**Site**: <https://github.com/jhjn/site>
+**Page Source**: <https://github.com/jhjn/site>
 
-### CV
+**Dotfiles**: <https://github.com/jhjn/dotfiles>
 
-### Dotfiles
+
 
 ### Orwell's Writing Advice
 

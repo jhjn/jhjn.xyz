@@ -3,3 +3,4 @@ site/.www/*
 site/wiki/*
 site/templates/*.min
 *.swp
+.DS_Store

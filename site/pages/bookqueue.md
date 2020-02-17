@@ -11,6 +11,8 @@ title: book queue
 * The Iliad - Homer tr. Rieu
 
 =====Up Next=====
+* Ayoade on Top - Richard Ayoade
+* The Places in Between - Rory Stewart
 * The Four - Scott Galloway
 * Inferno - Dante
 * Greek History - Robin Osborne

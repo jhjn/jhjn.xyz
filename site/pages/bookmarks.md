@@ -6,8 +6,17 @@ See the [book queue](/pages/bookqueue) for the analogue library.
 
 ## Collections
 
-* [Applications/Plugins with Vim-like keybindings](https://vim.reversed.top/)
+* [Applications/Plugins with Vim-like keybindings](https://vim.reversed.top/) - For a continuous keyboard based experience.
+* [Fixing mistakes in Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) - Note `git rm --cached [file]` removes file from tracking but keeps file on disk.
 
+---
+
+## Reading
+* <https://aldaily.com> - Arts and Letters Daily, essays, articles, book reviews and so on.
+* <https://redef.com/> - Aggregation of news and articles in the genres: Media, Fashion, Sports, Music, Tech.
+* <https://longform.org> - Aggregation of long form (>2000 words) articles and other non-fiction available on the web.
+* <https://longreads.com> - Similarly aggregates investigative reporting, interviews and profiles, podcasts, essays and criticism.
+* <https://git-scm.com/book/en/v2> - Git reference (and behind the scenes).
 
 ---
 
@@ -47,23 +56,10 @@ See the [book queue](/pages/bookqueue) for the analogue library.
 
 ---
 
-## Reading
-* <https://aldaily.com>
-* <https://redef.com/>
-* <https://longform.org>
-* <https://longreads.com>
-* <https://www.diagram.codes>
-* <https://git-scm.com/>
-
-
 ## Misc
 
-[Example of good bash code](https://github.com/kisslinux/kiss/blob/master/kiss)
-
-[USB Armory](https://inversepath.com/usbarmory.html#usbarmory_coin_3-tab)
-
-[SED](http://anaturb.net/sed.htm)
-
-[Pen testing](https://m0chan.github.io/2019/07/30/Windows-Notes-and-Cheatsheet.html)
-
-[Login to your webpage](https://github.com/pastapojken/JSONlogin)
+* [Example of good bash code](https://github.com/kisslinux/kiss/blob/master/kiss)
+* [USB Armory](https://inversepath.com/usbarmory.html#usbarmory_coin_3-tab)
+* [SED](http://anaturb.net/sed.htm)
+* [Pen testing](https://m0chan.github.io/2019/07/30/Windows-Notes-and-Cheatsheet.html)
+* [Login to your webpage](https://github.com/pastapojken/JSONlogin)

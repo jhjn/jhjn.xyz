@@ -27,13 +27,14 @@ body {
 .upperHeader div {
   position: absolute;
   top: 0.40ex;
+  overflow: hidden;
 }
 
 .upperHeader .left { left: 1.0em; }
 .upperHeader .right { right: 1.0em; }
 
 .lowerHeader {
-  color: rgb(39,78,144);
+  /*color: rgb(39,78,144);*/
   background-color: #1e488f;
   border-top: solid 0 #016795;
   border-width: 4px 0;
@@ -114,6 +115,8 @@ footer {
   border-top: solid 0 #016795;
   border-width: 4px 0;
 }
+
+footer p { position: relative; top: -0.5em; }
 
 #a {
   color: #36C; /*f06 before*/

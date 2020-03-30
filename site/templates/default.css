@@ -11,9 +11,9 @@ body {
 /* WERC HEADER */
 
 .upperHeader {
-  color: white;
+  color: #ccc;
   background-color: #1B2431;
-  height: 1.9em;
+  min-height: 1.9em;
 }
 
 .upperHeader a {
@@ -89,12 +89,6 @@ code {
   padding: .1em .4em;
 }
 
-nav li {
-  display: inline-block;
-  line-height: 2.5;
-  margin: 0 25px 0 0;
-}
-
 blockquote {
   border-left: 7px solid #fc9;
   color: #333;
@@ -112,13 +106,13 @@ img {
   transform: translateX(-50%);
 }
 
-nav,footer {
-  background: #002; /*000 before*/
-  padding: 30px;
-}
-
-nav a,footer {
+footer {
   color: #eee;
+  background-color: #1B2431;
+  height: 2.8em;
+  text-align: center;
+  border-top: solid 0 #016795;
+  border-width: 4px 0;
 }
 
 #a {
@@ -139,11 +133,6 @@ ul {
   padding-left: 2em;
 }
 
-nav ul {
-  margin: 0;
-  text-align: center;
-}
-
 li+li {
   margin-top: 4px;
 }
@@ -151,6 +140,3 @@ li+li {
 li>ul {
   margin: 5px 0 15px;
 }
-
-/* special rule for title text */
-.lowerTitle a:hover { text-decoration: none; }

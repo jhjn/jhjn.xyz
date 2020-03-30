@@ -1,5 +1,6 @@
 ---
 title: home
+home: true
 ---
 
 This serves as a personal webpage with diversions to things that interest me, plus it was a self-hosting project. Decentralisation (*not facebook*) is important.

@@ -10,31 +10,38 @@
 
 <style>$header-includes$</style>
 
-<nav>
-    <ul>
-        <li><a href="/" id=a>⋀ jhjn ⋁</a></li>
-        <li><a href="/blog/">blog</a>
-		<li><a href="/pages/science">science</a>
-		<li><a href="/pages/recipes">recipes</a>
-		<li><a href="/pages/bookmarks">bookmarks</a>
-        <li><a href="/pages/software">software</a>
-        <li><a href="https://github.com/jhjn/">git</a>
-		<li><a href="/pages/about">about</a>
-    </ul>
-</nav>
+<!-- WERC BLOCK -->
+<div class="upperHeader">
+    <div class="left">
+		<a href="/blog/">blog</a> |
+		<a href="/pages/science">science</a> |
+		<a href="/pages/recipes">recipes</a> |
+		<a href="/pages/bookmarks">bookmarks</a> |
+		<a href="/pages/software">software</a> |
+		<a href="https://github.com/jhjn/">git</a> |
+		<a href="/pages/about">about</a>
+    </div>
+
+    <div class="right">
+		| <a href="">misc</a> |
+    </div>
+
+</div>
+
+<div class="lowerHeader">
+	<h1 class="lowerTitle"><a href="/">jhjn </a><span id="lowerSubTitle">$if(home)$burn after reading$else$$if(title)$$title$$else$<br>$endif$$endif$</span></h1>
+</div>
+    
+	<!-- WERC BLOCK -->
 
 <main>
-	<!-- for blog  -->
+	<!-- FOR BLOG  -->
     $if(date)$
         <br>
         <p>Published <b>$date$</b> by <a href="https://github.com/dylanaraps"></a>.</p>
     $endif$
+	<!-- FOR BLOG --> 
 
-    $if(title)$
-        <h1 id="title-header">$title$</h1>
-    $else$
-        <br>
-    $endif$
 
 $if(out-toc)$
 <div id="TOC">
@@ -48,5 +55,5 @@ $body$
 </main>
 
 <footer>
-	<div id=m><p>© Joe Jenne 2019</p></div>
+	<div id=m><p>© Joe Jenne 2020</p></div>
 </footer>

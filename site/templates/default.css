@@ -1,12 +1,59 @@
 body {
   display: flex;
   flex-direction: column;
-  font: 16px/1.6 sans-serif;
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
   margin: 0;
   min-height: 100vh;
   overflow: hidden scroll;
   word-wrap: break-word;
 }
+
+/* WERC HEADER */
+
+.upperHeader {
+  color: white;
+  background-color: #1B2431;
+  height: 1.9em;
+}
+
+.upperHeader a {
+  color: white;
+  background-color: transparent;
+  font-size: 91%;
+  margin: 0;
+  padding: 0 0.5ex 0 0.25ex;
+}
+
+.upperHeader div {
+  position: absolute;
+  top: 0.40ex;
+}
+
+.upperHeader .left { left: 1.0em; }
+.upperHeader .right { right: 1.0em; }
+
+.lowerHeader {
+  color: rgb(39,78,144);
+  background-color: #1e488f;
+  border-top: solid 0 #016795;
+  border-width: 4px 0;
+}
+
+.lowerTitle {
+  color: black;
+  font-size: 250%;
+  font-weight: normal;
+  margin: 0 0 0 0.6em;
+  padding: 0.25ex 0;
+}
+#lowerSubTitle {
+  font-size: 50%;
+  font-style: italic;
+  margin-left: 1em;
+}
+
+.lowerTitle a { color: black; }
+/* END HEADER  */
 
 h1,h2,h3 {
   margin-top: 40px;
@@ -14,7 +61,7 @@ h1,h2,h3 {
 
 main {
   flex: 1;
-  width: 90%;
+  width: 100%;
 }
 
 pre>code,main,#m {
@@ -25,7 +72,7 @@ pre>code,main,#m {
 }
 
 pre>code {
-  background: #000;
+  background: #1B2431;
   color: #eee;
   font-family: Consolas,monospace;
   font-weight: normal;
@@ -80,7 +127,7 @@ nav a,footer {
 }
 
 a {
-  color: #00C;
+  color: #1e488f;/*#00C;*/
   text-decoration: none;
 }
 
@@ -104,3 +151,6 @@ li+li {
 li>ul {
   margin: 5px 0 15px;
 }
+
+/* special rule for title text */
+.lowerTitle a:hover { text-decoration: none; }

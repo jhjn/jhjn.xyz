@@ -1,4 +1,5 @@
 body {
+  background-color: #eee;
   display: flex;
   flex-direction: column;
   font: 16px/1.6 -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
@@ -8,34 +9,28 @@ body {
   word-wrap: break-word;
 }
 
-/* WERC HEADER */
+/* WERC style HEADER */
 
 .upperHeader {
-  color: #ccc;
-  background-color: #1B2431;
+  color: #bbb;
+  background-color: #1B2431; /* DARK BLUE*/
   min-height: 1.9em;
+  display: flex;
 }
 
 .upperHeader a {
-  color: white;
+  color: #eee;
   background-color: transparent;
   font-size: 91%;
   margin: 0;
   padding: 0 0.5ex 0 0.25ex;
 }
 
-.upperHeader div {
-  position: absolute;
-  top: 0.40ex;
-  overflow: hidden;
-}
-
-.upperHeader .left { left: 1.0em; }
-.upperHeader .right { right: 1.0em; }
+.upperHeader .left { margin: 0.15em 0 0 1.0em; flex: 3 1 75vw; }
+.upperHeader .right { margin: 0.15em 1.0em 0 0; flex-shrink: 0; }
 
 .lowerHeader {
-  /*color: rgb(39,78,144);*/
-  background-color: #1e488f;
+  background-color: #1e488f; /* MEDIUM BLUE */
   border-top: solid 0 #016795;
   border-width: 4px 0;
 }
@@ -47,6 +42,7 @@ body {
   margin: 0 0 0 0.6em;
   padding: 0.25ex 0;
 }
+
 #lowerSubTitle {
   font-size: 50%;
   font-style: italic;
@@ -54,6 +50,7 @@ body {
 }
 
 .lowerTitle a { color: black; }
+.lowerTitle a:hover { border: transparent; font-weight: 500; }
 /* END HEADER  */
 
 h1,h2,h3 {
@@ -62,15 +59,31 @@ h1,h2,h3 {
 
 main {
   flex: 1;
-  width: 100%;
+  width: 90%;
 }
 
-pre>code,main,#m {
+#a {
+  color: #36C;
+  font-weight: bold;
+}
+
+a {
+  color: #1e488f;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid;
+}
+
+
+pre>code,main,#m { /* MAIN DECIDER OF WIDTH */
   display: block;
   margin: 10px auto 40px;
   max-width: 52ch;
   padding: 0 10px;
 }
+
 
 pre>code {
   background: #1B2431;
@@ -107,31 +120,6 @@ img {
   transform: translateX(-50%);
 }
 
-footer {
-  color: #eee;
-  background-color: #1B2431;
-  height: 2.8em;
-  text-align: center;
-  border-top: solid 0 #016795;
-  border-width: 4px 0;
-}
-
-footer p { position: relative; top: -0.5em; }
-
-#a {
-  color: #36C; /*f06 before*/
-  font-weight: bold;
-}
-
-a {
-  color: #1e488f;/*#00C;*/
-  text-decoration: none;
-}
-
-a:hover {
-  border-bottom: 2px solid;
-}
-
 ul {
   padding-left: 2em;
 }
@@ -143,3 +131,14 @@ li+li {
 li>ul {
   margin: 5px 0 15px;
 }
+
+footer {
+  color: #eee;
+  background-color: #1B2431;
+  height: 2.8em;
+  text-align: center;
+  border-top: solid 0 #016795;
+  border-width: 4px 0;
+}
+
+footer p { position: relative; top: -0.5em; }

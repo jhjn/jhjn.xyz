@@ -4,23 +4,23 @@ title: bread
 
 The recipes and information are a hosted selection from [The Bread Code](https://github.com/hendricius/the-bread-code)  with [MIT License](#license)
 
-## [sourdough](sourdough.md)
+## [sourdough](./sourdough)
 
 ---
 
-### [banana bread](banana-bread.md)
-###	[dough basics](basic-dough.md)
-###	[sourdough basics](basic-sour-dough.md)
-###	[burger buns](burger-buns.md)
-###	[corn bread](corn-bread.md)
-###	[sourdough pasta](sourdough-pasta.md)
-###	[sourdough sandwich bread](sourdough-sandwich.md)
+### [banana bread](./banana-bread)
+###	[dough basics](./basic-dough)
+###	[sourdough basics](./basic-sour-dough)
+###	[burger buns](./burger-buns)
+###	[corn bread](./corn-bread)
+###	[sourdough pasta](./sourdough-pasta)
+###	[sourdough sandwich bread]./(sourdough-sandwich)
 
 ---
 
-### [common problems](common-problems.md)
-### [customisation](custom.md)
-### [tools](tools.md)
+### [common problems](./common-problems)
+### [customisation](./custom)
+### [tools](./tools)
 
 ---
 

@@ -8,7 +8,7 @@ out-toc: true
 ---
 
 ## Beef
-### [Beef and Ale Stew](#title-header)
+### [Beef and Ale Stew](#topofpage)
 **Ingredients**
 
 * 2 sticks of celery
@@ -30,7 +30,7 @@ out-toc: true
 1. Bring to the boil, put the lid on and either simmer slowly on the hob or place in the oven for 3 hours, or until the meat falls apart easily. Remove the lid for the final half hour of simmering or cooking.
 1. Remove the bay leaves before serving, then taste and tweak the seasoning, if needed.
 
-### [Stracotto](#title-header)
+### [Stracotto](#topofpage)
 
 **Ingredients**
 
@@ -53,7 +53,7 @@ out-toc: true
 1. Turn the heat up to high, pour in the wine, stir in the tomato purée, and let the wine cook away. Pour in the stock, bring to the boil, then place a double layer of scrunched-up wet greaseproof paper on the surface. Reduce to a low heat and cook for around 3 hours, or until the meat is meltingly tender, turning and basting occasionally. Season to perfection.
 1. Lift the meat out on to a board, carve it into thin slices, and spoon over enough of that incredible sauce to keep the meat nice and juicy. Toss the rest of the sauce (reduce on the hob, if needed) with freshly cooked tagliatelle, and finely grate over a little Parmesan, to serve.
 
-### [Ginger Miso Beef](#title-header)
+### [Ginger Miso Beef](#topofpage)
 
 **Ingredients**
 
@@ -73,7 +73,7 @@ out-toc: true
 1. Meanwhile, halve the pak choi, cook in a pan of boiling water for just 1 minute so they retain a bit of crunch, then drain well and plate up.
 1. Spoon over the steak and sticky juices from the pan, and finish with the reserved crispy bits.
 
-### [Spiced Beef and Rice Hot-pot](#title-header)
+### [Spiced Beef and Rice Hot-pot](#topofpage)
 
 **Ingredients**
 
@@ -98,7 +98,7 @@ out-toc: true
 1. Meanwhile, heat the 2 more tablespoons of oil and slowly sweat the onions for 10 minutes. Add the carrots and curry leaves and cook for 10 minutes, or until golden.
 1. Fluff up the rice with a fork and stir through the veg. Serve with a dollop of yoghurt and some chopped chilli (if using).
 
-### [Jamie’s meatloaf](#title-header)
+### [Jamie’s meatloaf](#topofpage)
 
 **Ingredients**
 
@@ -146,7 +146,7 @@ TOMATO SAUCE
 1. Spoon your sauce around the meatloaf, lay the slices of bacon or pancetta over the top and scatter over the rosemary leaves. Put the pan back in the oven for 10 to 15 minutes, or until the bacon turns golden and the sauce is bubbling and delicious.
 1. Delicious served with a mixed-leaf salad and lemon wedges for squeezing over.
 
-### [Chilli con Carne](#title-header)
+### [Chilli con Carne](#topofpage)
 
 **Ingredients**
 
@@ -175,7 +175,7 @@ TOMATO SAUCE
 1. Bring to the boil, then reduce the heat to low and simmer with a lid slightly ajar for 1 hour, or until slightly thickened and reduced, stirring occasionally.
 1. Serve up with fluffy rice or couscous, a hunk of crusty bread, or over a jacket potato, with some yoghurt, guacamole, and wedges of lime on the side for squeezing over. Sprinkle over the reserved coriander, and some fresh chilli, if you like, then tuck in.
 
-### [Spaghetti Bolognese](#title-header)
+### [Spaghetti Bolognese](#topofpage)
 
 **Ingredients**
 
@@ -206,7 +206,7 @@ TOMATO SAUCE
  ---
 
 ## Chicken
-### [Thai Red Curry](#title-header)
+### [Thai Red Curry](#topofpage)
 
 **Ingredients**
 
@@ -229,7 +229,7 @@ TOMATO SAUCE
 1. Uncover, stir well, and add the pepper and beans. Cook for another 5 minutes until the vegetables are cooked through.
 1. Season with salt and pepper. Serve with rice and fresh lime wedges.
 
-### [Korean-style Roast Chicken](#title-header)
+### [Korean-style Roast Chicken](#topofpage)
 
 **Ingredients**
 
@@ -273,7 +273,7 @@ SLAW
 1. Shred the chicken and serve with the coconut buns, slaw and remaining sauce.
 
 
-### [Crispy & Sticky Chicken Thighs with Squashed New Potatoes & Tomatoes](#title-header)
+### [Crispy & Sticky Chicken Thighs with Squashed New Potatoes & Tomatoes](#topofpage)
 
 **Ingredients**
 
@@ -297,7 +297,7 @@ SLAW
 1. Spread out in a single layer in the roasting tray, and bake for 40 minutes in the preheated oven until golden.
 1. Lovely served with a rocket salad dressed with some lemon juice and extra virgin olive oil, and a nice glass of white wine.
 
-### [Jamie's Perfect Roast Chicken](#title-header)
+### [Jamie's Perfect Roast Chicken](#topofpage)
 
 **Ingredients**
 
@@ -319,7 +319,7 @@ SLAW
 1. Rub a little oil all over the chicken skin, scatter over the remaining chopped herbs and season very generously with salt and black pepper. Slash each thigh about 3 or 4 times to allow the heat to penetrate directly.
 1. Remove the hot tray from the oven and drizzle with a little oil. Put the chicken into the tray, breast-side down and leaning to one side, then place in the oven. Roast for 5 minutes, then lean it to the other side, still breast-side down. Cook for another 5 minutes, then place the chicken on its bottom and cook for 1 further hour, or until golden and cooked through – the skin should be really crispy and the herbs will flavour the meat– this really must be the best roast chicken.
 
-### [Chicken Korma](#title-header)
+### [Chicken Korma](#topofpage)
 
 **Ingredients - 1**
 
@@ -338,7 +338,7 @@ SLAW
 1. Add courgette chunks, continue frying till coloured. Mix in paste.
 1. Add chicken and let flavours mix for 2-3 more minutes, then pour in coconut milk. Leave to simmer for 5-10 minutes to soften. Serve on rice.
 
-### [Chicken Katsu Curry](#title-header)
+### [Chicken Katsu Curry](#topofpage)
 
 **Ingredients**
 
@@ -383,7 +383,7 @@ PICKLE
 1. Alternatively, drizzle 2 tablespoons of olive oil into a large, cold non-stick frying pan on a medium heat. Cook the chicken for 10 minutes, or until golden and cooked through, turning after 6 minutes and drizzling with an extra 2 tablespoons of oil as you turn.
 1. To serve, put a quarter of the rice into a small bowl, press to compact and turn out on to a plate, then repeat with the other portions. Place the chicken next to the rice, cover with the sauce, then sprinkle over the pickle and the coriander leaves.
 
-### [Sweet Chicken Surprise](#title-header)
+### [Sweet Chicken Surprise](#topofpage)
 
 **Ingredients**
 
@@ -404,7 +404,7 @@ PICKLE
 ---
 
 ## Fish
-### [Asian Fishcakes](#title-header)
+### [Asian Fishcakes](#topofpage)
 
 **Ingredients**
 
@@ -426,7 +426,7 @@ PICKLE
 1. Spoon the chilli jam over the fishcakes, add a splash of water to the pan, turn the heat off, and jiggle to coat.
 1. Serve sprinkled with the drained coriander.
 
-### [Thai-style Crispy Sea Bass](#title-header)
+### [Thai-style Crispy Sea Bass](#topofpage)
 
 **Ingredients**
 
@@ -446,7 +446,7 @@ PICKLE
 1. Drain and shake off the spring onions and coriander and pile on to your plates.
 1. Sit the sea bass on top, spooning over any spicy oil from the pan. Finely grate over the lime zest, and serve with lime halves, for squeezing over.
 
-### [Crispy Skin Lemon Sole](#title-header)
+### [Crispy Skin Lemon Sole](#topofpage)
 
 **Ingredients**
 
@@ -467,7 +467,7 @@ PICKLE
 1. Meanwhile, finely slice the chillies, mix as much as you dare with the remaining mint, 2 tablespoons of red wine vinegar and 1 tablespoon of extra virgin olive oil, then taste and season to perfection.
 1. Plate up the veg and sole, pulling back half the crispy skin to expose the fish, then drizzle over the chilli mint dressing.
 
-### [One-pan Fish](#title-header)
+### [One-pan Fish](#topofpage)
 
 **Ingredients**
 
@@ -486,7 +486,7 @@ PICKLE
 1. Scatter over the dressed tomatoes. Put the lid back on and boil for 10 minutes, or until the rice is cooked through, then remove the lid and cook for a further 2 minutes until all the liquid has evaporated.
 1. Spoon the remaining tapenade over the fish, pick over the remaining basil leaves, drizzle lightly with extra virgin olive oil, and dish up.
 
-### [Super-speedy Steamed Salmon and Couscous](#title-header)
+### [Super-speedy Steamed Salmon and Couscous](#topofpage)
 
 **Ingredients**
 
@@ -520,7 +520,7 @@ PICKLE
 ---
 
 ## Pork
-### [Pork and Chive Dumplings](#title-header)
+### [Pork and Chive Dumplings](#topofpage)
 
 **Ingredients**
 
@@ -585,7 +585,7 @@ FRY
 1. Remove the cover and flip one potsticker to see whether the bottom side is charred. If not, turn to medium high heat and cook until the bottom side turns golden brown.
 1. Transfer the potstickers to a plate.
 
-### [Lentil and Pork Dahl](#title-header)
+### [Lentil and Pork Dahl](#topofpage)
 
 **Ingredients**
 * olive oil
@@ -621,7 +621,7 @@ FRY
 ---
 
 ## Vegetarian
-### [Butternut Quesadillas](#title-header)
+### [Butternut Quesadillas](#topofpage)
 
 **Ingredients**
 
@@ -645,7 +645,7 @@ FRY
 1. Tip the bean mixture into the butternut squash bowl, which by now will be cooked. Roughly mash everything together with a fork. Squeeze in the remaining lime juice and season with salt and pepper.
 1. Put the pan back on a high heat (don’t bother washing it – extra flavour). Put the first tortilla in and pile the butternut and black bean mixture on top. Then drizzle with barbecue sauce and put the other tortilla on top. Cook for two minutes on each side. Chop into pieces and serve with the avo dip.
 
-### [Summer Tagliatelle](#title-header)
+### [Summer Tagliatelle](#topofpage)
 
 **Ingredients**
 
@@ -664,7 +664,7 @@ FRY
 1. Pick most of the basil leaves into a pestle and mortar and bash to a paste with a pinch of sea salt. Peel and bash in the garlic, then pound in the almonds until fine. Muddle in 4 tablespoons of oil, finely grate in the Parmesan, then squeeze in the lemon juice. Season to perfection, and tweak to your liking.
 1. Scrub and finely slice the potato, trim just the stalks off the beans, then place both in a pan of boiling salted water with the tagliatelle and cook according to the pasta packet instructions. Prep the delicate summer veg as necessary, adding them to the pan for the last 3 minutes. Drain, reserving a mugful of starchy cooking water, then toss with the pesto, loosening with a splash of reserved cooking water, if needed. Drizzle with 1 tablespoon of oil, and finish with the remaining basil and a fine grating of Parmesan. Nice served with a crunchy seasonal salad.
 
-### [Asparagus Sushi](#title-header)
+### [Asparagus Sushi](#topofpage)
 
 **Ingredients**
 
@@ -693,7 +693,7 @@ FRY
 ---
 
 ## Desserts
-### [Banana Bread](#title-header)
+### [Banana Bread](#topofpage)
 
 **Ingredients**
 

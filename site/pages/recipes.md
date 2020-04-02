@@ -3,7 +3,7 @@ title: recipes
 out-toc: true
 ---
 
-*![BREAD & SOURDOUGH HOW TO COLLECTION](./bread/index)*
+*[BREAD & SOURDOUGH HOW TO COLLECTION](./bread/index)*
 
 ---
 

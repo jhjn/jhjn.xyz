@@ -66,4 +66,4 @@ of its constituents, not its final combined mass.  125g of starter is 62.5g
 of flour after all.  62.5g of water has therefore also been discounted from the 
 doughs final hydration of 42% calculated against 250g.
 ---
-<center>![bread home](./index)<\center>
+<center>[bread home](./index)<\center>

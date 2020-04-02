@@ -67,4 +67,4 @@ depending on how long you fermented the the dough.
 ![Portuguese Broa Bread](../../images/bread/portuguese-broa-corn-bread-2.jpg)
 ![Portuguese Broa Bread](../../images/bread/portuguese-broa-corn-bread-3.jpg)
 ---
-<center>![bread home](./index)<\center>
+<center>[bread home](./index)<\center>

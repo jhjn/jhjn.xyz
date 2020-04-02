@@ -139,4 +139,4 @@ If you don't feed your mother dough it will eventually starve as it has no more 
 You are not forced to bake every weekend.
 Some liquid may gather on top of your mother dough, that's usually lactic acid and a good amount of alcohol. Just remove that, feed your dough again and you should be good.
 ---
-<center>![bread home](./index)<\center>
+<center>[bread home](./index)<\center>

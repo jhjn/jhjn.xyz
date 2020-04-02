@@ -368,4 +368,4 @@ Place a large tray in the oven with boiling water. Heat the bread at a lower
 temperature of 150 degrees. The steam prevents the crust from becoming too
 thick. It's almost as good as after the first bake.
 ---
-<center>![bread home](./index)<\center>
+<center>[bread home](./index)<\center>

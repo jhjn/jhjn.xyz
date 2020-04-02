@@ -66,4 +66,4 @@ the sides of the pan as it bakes.
 
   
 ---
-<center>![bread home](./index)<\center>
+<center>[bread home](./index)<\center>

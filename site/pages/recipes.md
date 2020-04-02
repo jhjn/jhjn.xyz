@@ -3,6 +3,10 @@ title: recipes
 out-toc: true
 ---
 
+*![BREAD & SOURDOUGH HOW TO COLLECTION](./bread/index)*
+
+---
+
 ## Beef
 ### [Beef and Ale Stew](#title-header)
 **Ingredients**

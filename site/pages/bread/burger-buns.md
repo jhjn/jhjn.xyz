@@ -71,4 +71,4 @@ Your buns should be done after around 20 minutes, however this depends on your o
 
 ![The even crumb of the buns. Notice the larger pockets of air on the side](../../images/bread/burger-buns-5.jpg)
 ---
-<center>[bread home](./index)<\center>
+<center>[bread home](./index)</center>

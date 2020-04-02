@@ -207,4 +207,4 @@ tear the crumb apart. Enjoy with fresh salted butter or a little bit of olive oi
 
 If you feel something can be improved in this recipe - please open up a pull request.
 ---
-<center>[bread home](./index)<\center>
+<center>[bread home](./index)</center>

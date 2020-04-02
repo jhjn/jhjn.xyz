@@ -14,7 +14,7 @@ The recipes and information are a hosted selection from [The Bread Code](https:/
 ###	[burger buns](./burger-buns)
 ###	[corn bread](./corn-bread)
 ###	[sourdough pasta](./sourdough-pasta)
-###	[sourdough sandwich bread]./(sourdough-sandwich)
+###	[sourdough sandwich bread](./sourdough-sandwich)
 
 ---
 

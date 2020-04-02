@@ -234,4 +234,4 @@ Done!
 The above is an implementation of this recipe. It is the [most common sourdough
 bread eaten in Germany](../recipes/sourdough/golden-standard-german-bread.md)
 ---
-<center>[bread home](./index)<\center>
+<center>[bread home](./index)</center>

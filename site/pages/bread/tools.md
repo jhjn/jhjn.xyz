@@ -67,4 +67,4 @@ This creates a yummy beautiful crust.
 
 ![Pizza stone](../../images/bread/pizza-stone.jpg)
 ---
-<center>[bread home](./index)<\center>
+<center>[bread home](./index)</center>

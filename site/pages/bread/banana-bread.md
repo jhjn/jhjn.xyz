@@ -46,4 +46,4 @@ Leave the yogurt, and change butter with margarine or oil. The texture is almost
 
 Leave the yogurt, the eggs, and change butter with margarine or oil. The texture isn't fluffy. Might help to add more bicarbonate soda, but didn't tried it yet.
 ---
-<center>[bread home](./index)<\center>
+<center>[bread home](./index)</center>

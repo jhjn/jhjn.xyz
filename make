@@ -6,7 +6,7 @@
 # into the template. Also bring in the CSS and minify
 # the HTML.
 # Location of site folder
-SITE=./site
+SITE=/root/www/jhjn.xyz/site
 MAIN_DIR=/var/www/main
 
 mk() {
@@ -24,8 +24,10 @@ mk() {
 }
 
 # Delete the old website locations.
-cd $HTML_WWW
+shopt -s extglob
+cd $MAIN_DIR
 rm -rf *
+shopt -u extglob
 
 # Iterate over and send each file in the source tree under /site/ to while loop. Not including hidden file.
 (cd $SITE; find . -type f -a -not -path '*/\.*') |

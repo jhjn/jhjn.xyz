@@ -1,5 +1,5 @@
 ---
-title: science
+title: miscellaneous
 ---
 
 
@@ -12,8 +12,4 @@ title: science
 ## Papers
 
 * err
-
-## Interesting tech
-
-[USB Armory](https://inversepath.com/usbarmory.html#usbarmory_coin_3-tab)
 

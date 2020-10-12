@@ -2,13 +2,11 @@
 title: me
 ---
 
-Feel free to contact me at any of the following:
+#### Feel free to contact me at any of the following:
 
 -----------     ------
-**IRC**:        `#...` at [freenode](https://freenode.net)
-**Email**:      <NOT@RIGHT.NOW>
+**IRC**:        maybe soon a `#...` at <irc.jhjn.xyz>
+**Email**:      coming soon: <NOT@RIGHT.NOW>
 **GitHub**:     <https://github.com/jhjn>
-**CV**:			coming soon
+~~**CV**:~~  	~~link.link.link~~
 -----------     ------
-
-This is a personal page adapted from the [KISS](https://github.com/kisslinux/website/) Linux webpage.

@@ -1,22 +1,22 @@
 #!/bin/bash -e
 #
-# Simple static site builder, without wiki.
+# Wrapper for pandoc.
 
 # Convert the markdown page to HTML and insert it
 # into the template. Also bring in the CSS and minify
 # the HTML.
 # Location of site folder
-SITE=/home/pi/src/jhjn/site
-HTML_WWW=/var/www/html
+SITE=./site
+MAIN_DIR=/var/www/main
 
 mk() {
-    pandoc -t html5 \
+    pandoc --to=html5 \
            "$@" \
-	   --toc -s \
+		   --toc --standalone \
            --strip-comments \
            --no-highlight \
            --template=$SITE/templates/default.html \
-           -H $SITE/templates/default.css.min \
+           --include-in-header $SITE/templates/default.css \
            "$SITE/$page" |
            sed ':a;N;$!ba;s|>\s*<|><|g' > "${page%%.md}.html"
 
@@ -24,14 +24,8 @@ mk() {
 }
 
 # Delete the old website locations.
-shopt -s extglob
 cd $HTML_WWW
-rm -rf !(nextcloud)
-shopt -u extglob
-
-# Minify the CSS using sed.
-sed ':a;N;$!ba;s/\n//g;s/: /:/g;s/ {  /{/g;s/;  /;/g;s/;}/}/g' \
-    $SITE/templates/default.css > $SITE/templates/default.css.min
+rm -rf *
 
 # Iterate over and send each file in the source tree under /site/ to while loop. Not including hidden file.
 (cd $SITE; find . -type f -a -not -path '*/\.*') |

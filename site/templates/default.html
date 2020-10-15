@@ -8,43 +8,22 @@
 <meta name=viewport content="width=device-width,initial-scale=1.0">
 
 <style>$header-includes$</style>
-
 <body>
-<!-- V VISIBLE V -->
+$-- Everything below here is visible.
 
 <header>
-	<a href="/blog/">
-		<img src="/images/blog.svg" alt="blog" />blog
-	</a> |
-	<a href="/pages/recipes">
-		<img src="/images/recipes.svg" alt="recipes" />recipes
-	</a> |
-	<a href="">
-		<img src="/images/misc.svg" alt="misc" />misc
-	</a> ||
-	<a href="/" style="color:#903;font-size:20px;">
-		<img src="/images/home.svg" alt="home" />JHJn
-	</a> ||
-	<a href="/pages/links">
-		<img src="/images/links.svg" alt="links" />links
-	</a> ||
-	<a href="https://github.com/jhjn/">
-		<img src="/images/github.svg" alt="github" />git
-	</a> |
-	<a href="/pages/about">
-		<img src="/images/about.svg" alt="me" />about
-	</a>
+	${ nav() }
 </header>
 
 <main>
 	<!-- FOR BLOG  -->
     $if(date)$
-		<h1>$title$</h1>
+	<h1>$title$</h1>
         <p>Published <b>$date$</b> by <a href="/pages/about">Joe</a>.</p>
-		<hr>
+	<hr>
+	<br>
     $endif$
 	<!-- FOR BLOG --> 
-	<br>
 
 
 $if(out-toc)$

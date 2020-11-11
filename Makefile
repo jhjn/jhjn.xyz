@@ -25,7 +25,6 @@ $(DST_DIR)/%.html: $(SRC_DIR)/%.md
 
 $(DST_DIR)/images/%: $(SRC_DIR)/images/% 
 	cp -f $< $@
-	
 
 clean:
 	rm $(HTML) $(IMAGES)

@@ -9,7 +9,7 @@ Around twelve hours before starting to make bread it's a good idea to refresh th
 ## Baking
 
 * -10h40 whisk 10%[^1] starter with 60% water into a milkshake, pour by parts into (1/3 cake, 2/3 bread) flour[^2] in and mix into a smooth dough 
-* -10h20 mix in 2% salt and knead for 5 mins until stiff
+* -10h20 mix in 2% salt and knead for 5 mins until stiff[^3]
 * -10h knead 5 mins until stiff then into oiled bowl, clingfilm
 * -2h heavily dust surface, hands, dump dough top side down
 * -2h fold outer edge into centre and press down with palm around 7-10 times to get round shape, pick up and pinch into shape

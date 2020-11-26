@@ -1,0 +1,264 @@
+* { margin: 0; padding: 0; box-sizing: border-box;
+  
+  /* Color scheme: 1 light - 3 dark*/
+  
+  --text1: #eee;
+  --text3: #333;
+  --blue1: #6b87ae;
+  --blue2: #243142;
+  --blue3: #1b2431;
+  --red1: #c91d56;
+  --red2: #903;
+  --red3: #602;
+  --orange2: #c2540a; 
+  --pre1: #edccab;
+  --pre2: #fc9;
+
+}
+
+body {
+  font: 18px/1.7 system-ui, sans-serif;
+  color: var(--text1);
+  background: var(--blue2);
+  position: relative;
+  max-width: 80ch;
+  margin: 0 auto;  /* centers the layout */
+}
+
+@media only screen and (max-width: 680px) { /* smaller screens */
+  body {
+    font-size: 16px;
+  }
+}
+
+/* ------- Sections ------- */
+
+section {
+  padding: 8em 5vw 8vw 5vw;
+  /* !! Everything below is needed !! */
+  display: none;
+  position: absolute;
+  top: 0;
+  min-height: 100vh;
+  width: 100%;
+  background: var(--blue2);
+}
+
+section:target { /* Show section */
+  display: block;
+}
+
+section#home { /* Show #home by default */
+  display: block;
+}
+
+/* ------- Header ------- */
+
+header {
+  padding: 2vw 10vw 0 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  align-items: baseline;
+  z-index: 2;
+}
+
+header h1 a {
+  color: var(--red2);
+  font-size: 1.5em;
+  flex: 1;
+}
+header h1 a img {top: 7px;}
+
+nav a {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+header a img {
+  position: relative;
+  top: 3px;
+  height: 1em;
+}
+
+/* ------- General ------- */
+
+a {
+  color: var(--blue1);
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid;
+}
+
+h2, h3, h4 {
+  color: var(--red1);
+  font-weight: 600;
+  margin: 1.6em 0 .6em 0;
+}
+
+li {
+  margin-bottom: .2em;
+}
+
+ul, ol {
+  padding-left: 2ch;
+  margin-bottom: .5em;
+}
+
+b, strong {
+  font-weight: 600;
+}
+
+small {
+  font-size: .85em;
+}
+
+hr {
+  border: 1px solid var(--red2);
+  width: calc(100% + 6em);
+  margin: 3em 0 0 -3em;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+abbr[title]:hover {
+  opacity: .7;
+  cursor: help;
+}
+
+blockquote {
+  border-left: 7px solid var(--pre2);
+  color: #bbb;
+  background: #303e50;
+  margin: 0;
+  padding: 0 16px;
+}
+
+section img, svg, video, audio {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+  
+pre {
+  font-family: Consolas, monospace;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  border-radius: 4px;
+  color: var(--text3);
+  font-weight: 700;
+  background-color: var(--pre1);
+  line-height: 17px;
+  white-space: pre-wrap;
+}
+
+/* --- Inline footnotes --- */
+
+label {
+  cursor: pointer;
+  vertical-align: super;
+  line-height: 1;
+  font-size: .75em;
+  padding-left: .1em;
+}
+
+label:hover {
+  color: var(--orange2);
+}
+
+label:before {content:"[";}
+label:after {content:"]";}
+
+label + input,
+label + input + small {
+  display: none;
+}
+
+input:checked + small {
+  display: block;
+  padding: .8em 0 1em 2.5vw;;
+}
+
+/* Figures */
+
+figure {
+  margin: 2em 0 1.5em 0;
+}
+
+figure figcaption {
+  margin: 0.8em 0 0 0;
+  font-size: .85em;
+  opacity: .7;
+}
+
+/* External links */
+
+a[href*="//"]:after { 
+  font-weight: 300;
+  content: "\2197"; /* top right arrow: ↗ */
+  color: var(--text1);
+  opacity: .25;
+}
+
+a[href*="//"]:hover:after {
+  color: var(--red1);
+  opacity: 1;
+}
+
+/* File links */
+
+a:before { 
+  font-size: .7em;
+  margin-right: .4em;
+}
+
+/* Add more filetypes here if you want */
+
+a[href$=".pdf"]:before { content: "PDF"; }
+a[href$=".txt"]:before { content: "TXT"; }
+a[href$=".mp3"]:before { content: "MP3"; }
+a[href$=".jpeg"]:before,
+a[href$=".jpg"]:before,
+a[href$=".gif"]:before,
+a[href$=".png"]:before { content: "IMG"; }
+
+/* ------- News ------- */
+
+article + article {
+  margin-top: 5em;
+}
+
+article h1 {
+  font-size: 1em;
+  font-weight:700;
+  margin-bottom: 1em;
+}
+
+article time {
+  margin-left: .6em;
+  font-size: .8em;
+  font-weight: 400;
+  opacity: .7;
+}
+
+/* ------- Print ------- */
+
+@media print {
+  
+  nav { display: none; }
+  
+  article, figure, img {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  
+  /* Inline footnotes */
+  label + input + small { display: inline; }
+  label + input + small:before { content: "["; }
+  label + input + small:after { content: "]"; }
+    
+}

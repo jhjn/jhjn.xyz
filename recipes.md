@@ -1,9 +1,8 @@
 ---
 title: recipes
-out-toc: true
 ---
 
-[**MAKE SOURDOUGH**](/pages/sourdough)
+<h1><center> [**Ultimate sourdough**](#sourdough)</center></h1>
 
 ---
 

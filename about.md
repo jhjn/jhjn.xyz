@@ -2,11 +2,12 @@
 title: me
 ---
 
-#### Feel free to contact me at any of the following:
+#### Feel free to contact me
 
 -----------     ------
 **IRC**:        maybe soon a `#...` at <irc.jhjn.xyz>
-**Email**:      coming soon: <NOT@RIGHT.NOW>
+**Email**:      coming soon: <mailto:joe#jhjn.xyz>
 **GitHub**:     <https://github.com/jhjn>
-~~**CV**:~~  	~~link.link.link~~
 -----------     ------
+
+This website is one html file.

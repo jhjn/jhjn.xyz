@@ -2,7 +2,7 @@
 title: bookmarks
 ---
 
-See the [book queue](/pages/bookqueue) for the analogue library.
+See the [book queue](#bookqueue) for the analogue library.
 
 ## Collections
 
@@ -29,7 +29,7 @@ See the [book queue](/pages/bookqueue) for the analogue library.
 * [DataSecretsLox](https://www.datasecretslox.com/index.php/board,1.0.html) (Forum)
 * [Daring Fireball](https://daringfireball.net)
 * [Gwern](https://www.gwern.net/index)
-* [Ugly Duck](https://uglyduck.ca)
+* [arp242](https://www.arp242.net)
 
 ---
 

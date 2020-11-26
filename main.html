@@ -1,0 +1,59 @@
+!!# This is my file
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JHJn</title>
+	<link rel="icon" href="img/favicon.svg">
+    <meta name="description" content="Site description">
+	<style>
+!! cat style.css
+	</style>
+  </head>
+  <body>
+
+    <header>
+      <h1>
+        <a href="#home"><img src="img/home.svg"/> JHJn</a>
+      </h1>
+      <nav>
+        <a href="#blog"><img src="img/blog.svg"/> Blog</a>/
+        <a href="#recipes"><img src="img/recipes.svg"/> Recipes</a>/
+        <a href="#links"><img src="img/links.svg"/> Links</a>/
+        <a href="#about"><img src="img/about.svg"/> About</a>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="home">
+!! pandoc home.md -t html
+      </section>
+      
+      <section id="blog">
+!! cat blog.html
+      </section>
+      
+      <section id="recipes">
+!! pandoc recipes.md -t html -s --toc --template=templ-recipe.html
+      </section>
+      
+      <section id="links">
+!! pandoc links.md -t html
+      </section>
+
+      <section id="about">
+!! pandoc about.md -t html
+      </section>
+
+!!# The sections below are not in the header nav.
+      <section id="sourdough">
+!! pandoc sourdough.md -t html
+      </section>
+
+      <section id="bookqueue">
+!! pandoc bookqueue.md -t html
+      </section>
+    </main>
+  </body>
+</html>

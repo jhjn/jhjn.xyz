@@ -44,13 +44,17 @@ section {
   background: var(--blue2);
 }
 
+section#home { /* Show #home by default */
+  display: block;
+}
+
 section:target { /* Show section */
   display: block;
 }
 
-section#home { /* Show #home by default */
-  display: block;
+section:not([target=#home])#home { /* Hide #home when on another page */
 }
+
 
 /* ------- Header ------- */
 
